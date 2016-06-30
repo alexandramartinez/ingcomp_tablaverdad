@@ -1,0 +1,1 @@
+# ingcomp_tablaverdad
