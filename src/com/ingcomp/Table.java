@@ -70,6 +70,7 @@ public class Table {
 
     public void print(String types) {
         int lineSpaces = 0;
+        int rowNum = 0;
 
         if(types.contains(PrintingType.TRUTH_TABLE.toString())) {
             System.out.println();
@@ -89,16 +90,22 @@ public class Table {
                 for(int value : row) {
                     System.out.printf("%5s", value);
                 }
+
+                if(types.contains(PrintingType.MINITERM.toString())) {
+                    System.out.printf("%9s", "m" + rowNum);
+                    rowNum++;
+                }
+
                 System.out.println();
             }
         }
     }
 
     private void printVerticalLine(int lineSpaces) {
-        int col = lineSpaces;
+        int col = lineSpaces + 5;
         System.out.println();
-        while(col >= 0) {
-            System.out.print("-----");
+        while(col > 0) {
+            System.out.print("-");
             col--;
         }
         System.out.println();
