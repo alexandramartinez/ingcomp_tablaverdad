@@ -9,6 +9,7 @@ public class Main {
         Table t = new Table(vars);
         t.print(PrintingType.TRUTH_TABLE.toString()
                 + PrintingType.MINITERM.toString()
+                + PrintingType.MAXTERM.toString()
         );
     }
 }

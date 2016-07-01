@@ -84,6 +84,11 @@ public class Table {
                 lineSpaces = lineSpaces + 12;
             }
 
+            if(types.contains(PrintingType.MAXTERM.toString())) {
+                System.out.printf("%11s", PrintingType.MAXTERM.toString());
+                lineSpaces = lineSpaces + 11;
+            }
+
             printVerticalLine(lineSpaces);
 
             for(int[] row : values) {
@@ -93,9 +98,16 @@ public class Table {
 
                 if(types.contains(PrintingType.MINITERM.toString())) {
                     System.out.printf("%9s", "m" + rowNum);
-                    rowNum++;
                 }
 
+                if(types.contains(PrintingType.MAXTERM.toString())) {
+                    if(types.contains(PrintingType.MINITERM.toString())) {
+                        System.out.printf("%3s", " ");
+                    }
+                    System.out.printf("%9s", "M" + rowNum);
+                }
+
+                rowNum++;
                 System.out.println();
             }
         }
