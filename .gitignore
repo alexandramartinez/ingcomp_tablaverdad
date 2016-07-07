@@ -12,3 +12,18 @@
 hs_err_pid*
 
 *.xml
+
+#directories to ignore
+build/
+target/
+classes/
+.gradle/
+.idea/
+.vagrant/
+Berksfile.lock
+#files to ignore
+*.iml
+.DS_Store
+.project
+.classpath
+Berksfile
