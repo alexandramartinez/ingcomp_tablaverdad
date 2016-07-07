@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae71a0a6-4b2a-455b-b608-c40685276697" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ingcomp/Main.java" afterPath="$PROJECT_DIR$/src/com/ingcomp/Main.java" />
     </list>
     <ignored path="ingcomp_tablaverdad.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +27,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ingcomp/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -40,7 +39,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1700">
               <caret line="104" column="45" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
-              <folding />
+              <folding>
+                <element signature="e#191#192#0" expanded="false" />
+                <element signature="e#232#233#0" expanded="false" />
+                <element signature="e#766#767#0" expanded="false" />
+                <element signature="e#798#799#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,8 +83,8 @@
         <option value="$PROJECT_DIR$/src/com/ingcomp/PrintingTypes.java" />
         <option value="$PROJECT_DIR$/src/com/ingcomp/PrintingType.java" />
         <option value="$PROJECT_DIR$/src/com/ingcomp/Table.java" />
-        <option value="$PROJECT_DIR$/src/com/ingcomp/Main.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/ingcomp/Main.java" />
       </list>
     </option>
   </component>
@@ -475,7 +479,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="104" column="45" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,7 +508,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -531,22 +545,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="104" column="45" selection-start-line="104" selection-start-column="45" selection-end-line="104" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ingcomp/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
         </state>
       </provider>
